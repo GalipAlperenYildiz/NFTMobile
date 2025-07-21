@@ -2,27 +2,17 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
     "jsx": "react-native",
+    "strict": true,
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "noEmit": true
+    "esModuleInterop": true
   },
-  "include": [
-    "src/**/*",
-    "App.tsx",
-    "index.js"
-  ],
   "exclude": [
     "node_modules",
     "babel.config.js",
     "metro.config.js",
-    "jest.config.ts",
-    "android",
-    "ios"
+    "jest.config.js"
   ],
   "extends": "expo/tsconfig.base"
 }

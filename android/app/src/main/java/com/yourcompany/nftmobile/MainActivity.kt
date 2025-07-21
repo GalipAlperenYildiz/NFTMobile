@@ -1,4 +1,4 @@
-package com.anonymous.NFTMobile
+package com.yourcompany.nftmobile
 
 import android.os.Build
 import android.os.Bundle

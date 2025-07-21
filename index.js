@@ -1,10 +1,15 @@
-// index.js
+// 1) Solana/Web3.js polyfill’leri (Buffer ve getRandomValues)
 import 'react-native-get-random-values';
 import { Buffer } from 'buffer';
-global.Buffer = Buffer;
+if (global.Buffer == null) global.Buffer = Buffer;
 
-import { AppRegistry } from 'react-native';
+// 2) React Navigation gesture handler
+import 'react-native-gesture-handler';
+
+// 3) (Dev-client için; Expo Go testinde yorumlayın)
+// import 'expo-dev-client';
+
+// 4) Uygulamanın giriş noktası
+import { registerRootComponent } from 'expo';
 import App from './App';
-import { name as appName } from './app.json';
-
-AppRegistry.registerComponent(appName, () => App);
+registerRootComponent(App);

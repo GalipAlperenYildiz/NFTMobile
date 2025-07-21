@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		6209DA55A26413B5A379D2C5 /* libPods-NFTMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F343D3365B1755ABC72647FD /* libPods-NFTMobile.a */; };
-		687275F916B5B925B8BA6302 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1F2BF59748D92423BF9FA6 /* ExpoModulesProvider.swift */; };
+		538D6BA9F66C314BDF581BEE /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA25C2B5E41824B192DBC415 /* ExpoModulesProvider.swift */; };
+		677E4D034BA4B06267896ACB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D1119DA998BBC9573F972400 /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		D707E7282AA3EDFC6CB161C3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F623F253584EF7AEEEE98661 /* PrivacyInfo.xcprivacy */; };
+		C27C8EDFBBD65794FD04A46E /* libPods-NFTMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDB9A770FAC694ED4AB0264 /* libPods-NFTMobile.a */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,16 +20,16 @@
 		13B07F961A680F5B00A75B9A /* NFTMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NFTMobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NFTMobile/Info.plist; sourceTree = "<group>"; };
-		8F300E4B6CC6DCF235736E84 /* Pods-NFTMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFTMobile.release.xcconfig"; path = "Target Support Files/Pods-NFTMobile/Pods-NFTMobile.release.xcconfig"; sourceTree = "<group>"; };
-		A46D40B0BB761B4BDBF3E400 /* Pods-NFTMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFTMobile.debug.xcconfig"; path = "Target Support Files/Pods-NFTMobile/Pods-NFTMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		7DDB9A770FAC694ED4AB0264 /* libPods-NFTMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFTMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = NFTMobile/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		DD1F2BF59748D92423BF9FA6 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-NFTMobile/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		C3749FA152187113B890E921 /* Pods-NFTMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFTMobile.release.xcconfig"; path = "Target Support Files/Pods-NFTMobile/Pods-NFTMobile.release.xcconfig"; sourceTree = "<group>"; };
+		D1119DA998BBC9573F972400 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = NFTMobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DA25C2B5E41824B192DBC415 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-NFTMobile/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		E4D4A011AC601D51D6480E62 /* Pods-NFTMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFTMobile.debug.xcconfig"; path = "Target Support Files/Pods-NFTMobile/Pods-NFTMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = NFTMobile/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* NFTMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NFTMobile-Bridging-Header.h"; path = "NFTMobile/NFTMobile-Bridging-Header.h"; sourceTree = "<group>"; };
-		F343D3365B1755ABC72647FD /* libPods-NFTMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NFTMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F623F253584EF7AEEEE98661 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = NFTMobile/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,23 +37,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6209DA55A26413B5A379D2C5 /* libPods-NFTMobile.a in Frameworks */,
+				C27C8EDFBBD65794FD04A46E /* libPods-NFTMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		112F09AEC53562244465E3A5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A46D40B0BB761B4BDBF3E400 /* Pods-NFTMobile.debug.xcconfig */,
-				8F300E4B6CC6DCF235736E84 /* Pods-NFTMobile.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* NFTMobile */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				F623F253584EF7AEEEE98661 /* PrivacyInfo.xcprivacy */,
+				D1119DA998BBC9573F972400 /* PrivacyInfo.xcprivacy */,
 			);
 			name = NFTMobile;
 			sourceTree = "<group>";
@@ -72,15 +62,15 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F343D3365B1755ABC72647FD /* libPods-NFTMobile.a */,
+				7DDB9A770FAC694ED4AB0264 /* libPods-NFTMobile.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		62B3A46FB1ACADE12A627D44 /* ExpoModulesProviders */ = {
+		7162E761172981958EBEB79A /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				A62B25C1BA55CA5DF3CBD33F /* NFTMobile */,
+				B0AD767B80AA73D52892855F /* NFTMobile */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
@@ -99,8 +89,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				112F09AEC53562244465E3A5 /* Pods */,
-				62B3A46FB1ACADE12A627D44 /* ExpoModulesProviders */,
+				CB491AB1B42428F4743D7D58 /* Pods */,
+				7162E761172981958EBEB79A /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,10 +105,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A62B25C1BA55CA5DF3CBD33F /* NFTMobile */ = {
+		B0AD767B80AA73D52892855F /* NFTMobile */ = {
 			isa = PBXGroup;
 			children = (
-				DD1F2BF59748D92423BF9FA6 /* ExpoModulesProvider.swift */,
+				DA25C2B5E41824B192DBC415 /* ExpoModulesProvider.swift */,
 			);
 			name = NFTMobile;
 			sourceTree = "<group>";
@@ -132,6 +122,16 @@
 			path = NFTMobile/Supporting;
 			sourceTree = "<group>";
 		};
+		CB491AB1B42428F4743D7D58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4D4A011AC601D51D6480E62 /* Pods-NFTMobile.debug.xcconfig */,
+				C3749FA152187113B890E921 /* Pods-NFTMobile.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,13 +140,12 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NFTMobile" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				6D6591CE9E32DB729CC6BD95 /* [Expo] Configure project */,
+				B1753FBB1BD8EE38C97C8D79 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				7D94249520BBD44ECAAEA832 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +195,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				D707E7282AA3EDFC6CB161C3 /* PrivacyInfo.xcprivacy in Resources */,
+				677E4D034BA4B06267896ACB /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +239,39 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D6591CE9E32DB729CC6BD95 /* [Expo] Configure project */ = {
+		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFTMobile/Pods-NFTMobile-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/RCT-Folly_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCT-Folly_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-cxxreact_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFTMobile/Pods-NFTMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1753FBB1BD8EE38C97C8D79 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -259,60 +290,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-NFTMobile/expo-configure-project.sh\"\n";
 		};
-		7D94249520BBD44ECAAEA832 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFTMobile/Pods-NFTMobile-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFTMobile/Pods-NFTMobile-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NFTMobile/Pods-NFTMobile-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/EXConstants.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/EXConstants/ExpoConstants_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ExpoFileSystem/ExpoFileSystem_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/RCT-Folly_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXConstants.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoConstants_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExpoFileSystem_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCT-Folly_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-cxxreact_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFTMobile/Pods-NFTMobile-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -321,7 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				687275F916B5B925B8BA6302 /* ExpoModulesProvider.swift in Sources */,
+				538D6BA9F66C314BDF581BEE /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +307,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A46D40B0BB761B4BDBF3E400 /* Pods-NFTMobile.debug.xcconfig */;
+			baseConfigurationReference = E4D4A011AC601D51D6480E62 /* Pods-NFTMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -354,7 +331,7 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anonymous.NFTMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.nftmobile;
 				PRODUCT_NAME = NFTMobile;
 				SWIFT_OBJC_BRIDGING_HEADER = "NFTMobile/NFTMobile-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -366,7 +343,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F300E4B6CC6DCF235736E84 /* Pods-NFTMobile.release.xcconfig */;
+			baseConfigurationReference = C3749FA152187113B890E921 /* Pods-NFTMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -385,7 +362,7 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anonymous.NFTMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.nftmobile;
 				PRODUCT_NAME = NFTMobile;
 				SWIFT_OBJC_BRIDGING_HEADER = "NFTMobile/NFTMobile-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -456,7 +433,7 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
-				USE_HERMES = true;
+				USE_HERMES = false;
 			};
 			name = Debug;
 		};
@@ -513,7 +490,7 @@
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
-				USE_HERMES = true;
+				USE_HERMES = false;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

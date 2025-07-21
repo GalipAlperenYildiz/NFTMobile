@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.NFTMobile'
+    namespace 'com.yourcompany.nftmobile'
     defaultConfig {
-        applicationId 'com.anonymous.NFTMobile'
+        applicationId 'com.yourcompany.nftmobile'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

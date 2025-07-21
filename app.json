@@ -1,16 +1,10 @@
 {
   "expo": {
     "name": "NFTMobile",
-    "slug": "NFTMobile",
+    "slug": "nftmobile",
     "version": "1.0.0",
-    "platforms": ["ios", "android"],
-    "icon": "./assets/icon.png",
-    "scheme": "nftmobile",
-    "ios": {
-      "bundleIdentifier": "com.anonymous.NFTMobile"
-    },
-    "android": {
-      "package": "com.anonymous.NFTMobile"
-    }
+    "sdkVersion": "53.0.0",
+    "jsEngine": "jsc",
+    "platforms": ["ios", "android"]
   }
 }

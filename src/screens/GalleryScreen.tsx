@@ -1,26 +1,16 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { RootStackParamList } from '../../App';
-import { useWalletContext } from '../contexts/WalletContext';
+import { View, Text, Button, StyleSheet } from 'react-native';
 
-type Props = NativeStackScreenProps<RootStackParamList, 'Gallery'>;
-
-export default function GalleryScreen({ }: Props) {
-  const { publicKey } = useWalletContext();
-
+export default function GalleryScreen({ navigation }: any) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Gallery Ekranı</Text>
-      {publicKey
-        ? <Text>Burada mint edilmiş NFT’leriniz listelenecek.</Text>
-        : <Text>Önce cüzdanınızı bağlayın.</Text>
-      }
+      <Text style={styles.text}>Galeri Ekranı</Text>
+      <Button title="Mint Ekranına Dön" onPress={() => navigation.navigate('Mint')} />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-  title: { fontSize: 20, fontWeight: 'bold', marginBottom: 16 }
+  container: { flex: 1, padding: 20, justifyContent: 'center' },
+  text: { fontSize: 24, marginBottom: 20 },
 });
