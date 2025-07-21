@@ -1,4 +1,3 @@
-// ~/Projects/NFTMobile/tsconfig.json
 {
   "compilerOptions": {
     "target": "esnext",
@@ -24,5 +23,6 @@
     "jest.config.ts",
     "android",
     "ios"
-  ]
+  ],
+  "extends": "expo/tsconfig.base"
 }
